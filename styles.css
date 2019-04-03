@@ -1,0 +1,185 @@
+body {
+    background-image: url("WelcomePageImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 4px 0;
+  }
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 1400px;
+    background-color: rgba(2, 1, 1, 0.438);
+    border: solid 2px;
+  }
+
+#content {
+    border: 2px;
+  }
+
+#header {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4px 0;
+    color: rgb(0, 0, 0);
+    background-size: 100%;
+    background-color: rgba(187, 216, 200, 0.685);
+    text-align: center;
+  }
+
+#header h1 {
+  padding-bottom: 0;
+}
+
+#header p {
+  font-size: 12px;
+}
+
+#navBar {
+    width: 15%;
+    float: left;
+    margin: 0;
+    padding: 0, 0, 2px, 0;
+    background-color: rgba(187, 216, 200, 0.685);
+    text-align: center;
+    border: 2px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+#navBar h3 {
+    font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgba(187, 216, 200, 0.685);
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  border-bottom: solid 1px;
+}
+
+li:last-child a {
+  border-bottom: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgba(60, 179, 114, 0.685);
+  color: white;
+  border-color: black;
+}
+
+.active {
+    background-color: rgb(63, 173, 78);
+    color: white;
+    border-color: black;
+  }
+
+#feedText {
+    width: 85%;
+    float: right;
+    background-color: rgba(193, 223, 215, 0.541);
+    max-height: 2000px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+#feedText h2 {
+  padding: 4px;
+  padding-left: 10px;
+}
+  
+#feedText p {
+  padding: 4px;
+  padding-left: 10px;
+}
+
+button {
+    block-size: 20%;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 5);
+    border: 2px;
+    background: rgba(187, 216, 200, 0.685);
+  }
+
+button :hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    color: white;
+  }
+  
+#footer {
+    clear: both;
+    background-color: rgba(99, 99, 99, 0.575);
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 15%;
+  }
+
+#footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;  
+}
+
+#footer li {
+  display: block;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 0;
+}
+
+#face {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(68, 58, 211);
+  float: left;
+  border-radius: 4px;
+}
+
+#linked {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(31, 23, 134);
+  float: right;
+  border-radius: 4px;
+}
+
+#clock {
+  text-align: left;
+  font-size: 10px;
+  color: darkgray;
+  float: left;
+  clear: left;
+}
+
+#copyright {
+  font-size: 10px;
+  float: right;
+  color: darkgray;
+}
+
+#tipCalculator {
+  background-color: white;
+}
+
+#tipCalculatorDiv {
+  background-color: rgba(0, 0, 0, 0);
+}
