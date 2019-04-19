@@ -10,7 +10,6 @@
 
     <div id="header">
       <h1>Welcome to my website!</h1>
-      <p>It's going to be pretty sweet one of these days!</p>
     </div>
 
     <div id="content">
@@ -33,17 +32,13 @@
 
       <div id="tipCalculatorDiv">        
         <form action="/action_page.php">
-          <fieldset style="color:white;">
-            <legend style="color:white;">Personal information:</legend>
-            First name:<br>
-            <input type="text" name="firstname">
-            <br>
-            Last name:<br>
-            <input type="text" name="lastname">
-            <br><br>
-            <input type="submit" value="Submit">
-          </fieldset>
+          Subtotal:
+          <input type="number" id="subtotal">
+          Percentage:
+          <input type="number" id="percentage"><br>
         </form>
+        <button onclick="calculateTip()">Calculate</button>
+        <p id="total" style="color:white"></p>
       </div>
 
       <div id="footer">
@@ -56,6 +51,7 @@
       </div>
 
   </div>
+  <script src="tipCalculator.js"></script>
   <script src="siteScripts.js"></script>
 
 </div>
